@@ -11,6 +11,11 @@ body{
    -webkit-tap-highlight-color: #3465df;
 }
 
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+
 /* NAVIGATION */
 
 nav{
@@ -197,7 +202,10 @@ header.hero{
         /* background-color: palegreen; */
     }
 
-   
+    .wrapper{
+        width: 85%;
+        margin: 0 auto;
+    }
 
     nav .controls #menuToggle{
        display: none;
@@ -241,10 +249,13 @@ header.hero{
 
 @media screen and (min-width: 992px) {
     body{
-        background-color: burlywood;
+       /*  background-color: burlywood; */
     }
-
     
+    .wrapper{
+        width: 80%;
+        margin: 0 auto;
+    }
 
     nav .controls,
     nav .search #searchClose{
