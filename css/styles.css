@@ -1,0 +1,250 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #f1f1f1;
+    font-family: Helvetica;
+    min-width: 330px;
+   -webkit-tap-highlight-color: #3465df;
+}
+
+/* NAVIGATION */
+
+nav{
+    background: #3465df;
+    position: relative;
+}
+
+nav:after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+nav .controls button{
+    margin: 0.7rem .25rem;
+}
+
+nav .controls #menuToggle{
+    float:left;
+}
+
+nav .controls #menuSearch{
+    float: right;
+}
+
+nav .logo{
+    text-align: center;
+}
+
+nav .logo a img{
+   width: 62px;
+   padding: 2px 4px;
+}
+
+nav .logo a .rest{
+    text-decoration: underline;
+    color: #fff;
+    font-size: 24px;
+    position: relative;
+    bottom: 12px;
+    display: inline-block;
+}
+
+/* hide the mobile navigation */
+nav ul.nav.close{
+    display: none;
+}
+
+nav ul.nav{
+    display: block;
+    position: absolute;
+    top: calc(100% - .5rem);
+    left: 0.5rem;
+    width: 80%;
+    max-width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(18,74,138,.24);
+    font-size: .94rem;
+
+}
+nav ul.nav::after{
+    content: '';
+    position: absolute;
+    top: -12px;
+    left: 15px;
+    border: 6px solid transparent;
+    border-bottom-color: #fff;
+}
+
+nav ul.nav li{
+    list-style-type: none;
+}
+
+nav ul.nav li a{
+
+    display: block;
+    text-decoration: none;
+    color: #747474;
+    background-color: #ffffff;
+    padding: 8px 12px;
+}
+
+nav ul.nav li a:hover{
+    background-color: #eeeeee;
+    color: #333;
+}
+
+/* search */
+nav .search{
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 0%;
+    background-color: #3465df;
+    padding: 14px;
+    text-align: center;
+}
+
+nav .search.close{
+    display: none;
+}
+
+
+/* COMPONENTS */
+
+/* buttons */
+.btn{
+    display: inline-block;
+    border: 1px solid transparent;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 0.8125rem;
+    transition: 0.3s background, 0.3s color;
+    line-height: 1.76923;
+    text-transform: uppercase;
+    padding: 6px 12px;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 0 4px 8px 0 rgba(18,74,138,.24);
+    background: #79d634;
+    outline-color: #3465df;
+  
+}
+
+.btn:hover{
+    background: #6cc828;
+}
+
+.btn-icon{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0px 10px;
+}
+
+.input{
+    display: inline-block;
+    width: 60%;
+    margin: 0 auto;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.input:focus{
+    border-color: #66afe9;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+}
+
+
+@media screen and (min-width: 768px) {
+    body{
+        /* background-color: palegreen; */
+    }
+
+   
+
+    nav .controls #menuToggle{
+       display: none;
+    }
+
+    nav .logo{
+      float: left;
+      margin-right: 12px;
+    }
+
+    nav ul.nav {
+        position: static;
+        float: left;
+        max-width: none;
+        width: auto;
+        box-shadow: none;
+    }
+
+    nav ul.nav li{
+       float: left;
+    }
+    nav ul.nav li a{
+        padding: 24px 12px;
+        background-color: transparent;
+        color: #fff;
+    }
+
+    nav ul.nav li a:hover{
+        background-color: #79d634;
+        color: #fff;
+    }
+
+
+    nav ul.nav.close{
+        display: block;
+    }
+   
+
+   
+}
+
+@media screen and (min-width: 992px) {
+    body{
+        background-color: burlywood;
+    }
+
+    
+
+    nav .controls,
+    nav .search #searchClose{
+        display: none;
+    }
+
+    nav .search.close{
+        display: block;
+    }
+
+    nav .search{
+        position: static;
+        float: right;
+        width: auto;
+    }
+
+    nav .search .input{
+        width: auto;
+    }
+}
+
+
+
+
+
+
+
