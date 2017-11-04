@@ -168,6 +168,27 @@ nav .search.close{
 }
 
 
+/* HERO HEADER  */
+header.hero{
+    background-color: #3465df;
+    text-align: center;
+    color: #fff;
+}
+/* hero logo */
+.hero .img-logo img{
+    padding: 24px;
+}
+.hero .title{
+    margin: 2rem 0 0;
+    padding: 0.2rem 1rem; 
+    font-size: 36px;
+}
+
+.hero .subtitle{
+    padding: 1rem 2rem 4rem 2rem;
+    font-size: 18px;
+}
+
 @media screen and (min-width: 768px) {
     body{
         /* background-color: palegreen; */
