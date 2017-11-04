@@ -137,6 +137,7 @@ nav .search.close{
     box-shadow: 0 4px 8px 0 rgba(18,74,138,.24);
     background: #79d634;
     outline-color: #3465df;
+    text-decoration: none;
   
 }
 
@@ -196,6 +197,28 @@ header.hero{
     padding: 1rem 2rem 4rem 2rem;
     font-size: 18px;
 }
+
+/* POST SECTION */
+section.post{
+    background-color: #fff;
+    margin: 1rem 0.2rem;
+    padding: 1rem 1.2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.17);
+    text-align: right;
+}
+
+.post h2{
+    padding: 14px;
+    color: #222;
+    text-align: left;
+}
+.post p{
+    color: #666666;
+    font-size: 18px;
+    line-height: 1.5rem;
+    text-align: left;
+}
+
 
 @media screen and (min-width: 768px) {
     body{
