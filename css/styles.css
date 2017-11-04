@@ -15,7 +15,8 @@ body{
 
 nav{
     background: #3465df;
-    position: relative;
+    position: fixed;
+    width: 100%;
 }
 
 nav:after{
@@ -173,6 +174,8 @@ header.hero{
     background-color: #3465df;
     text-align: center;
     color: #fff;
+    /* fix for fixed navigation bar */
+    padding-top: 65px;
 }
 /* hero logo */
 .hero .img-logo img{
