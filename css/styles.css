@@ -352,6 +352,7 @@ footer .copyright p:first-child{
 /* THEME INDIGO */
 .theme-indigo{
     background: url("../images/bg-gears-indigo.svg") #f1f1f1 fixed;
+    -webkit-tap-highlight-color: #3f51b5;
 }
 
 .theme-indigo nav,
@@ -390,6 +391,7 @@ footer .copyright p:first-child{
 /* THEME BLUE GREY */
 .theme-bg{
     background: url("../images/bg-gears-blue-grey.svg") #f1f1f1 fixed;
+    -webkit-tap-highlight-color: #607d8b;
 }
 
 .theme-bg nav,
@@ -429,6 +431,7 @@ footer .copyright p:first-child{
 /* THEME DARK */
 .theme-dark{
     background: url("../images/bg-gears-dark.svg") #f1f1f1 fixed;
+    -webkit-tap-highlight-color: #2D3640;
 }
 
 .theme-dark nav,
@@ -444,7 +447,7 @@ footer .copyright p:first-child{
 
 .theme-dark footer .copyright,
 .theme-dark li.active a{
-    background-color: #394450;
+    background-color: #00796b;
     color: #fff;
 }
 
@@ -458,9 +461,48 @@ footer .copyright p:first-child{
 }
 
 .theme-dark .btn:hover{
-    background-color: #F0514B;
+    background-color: #C0403C;
 }
 .theme-dark nav ul.nav li a:hover{
-    color: #F0514B;
+    color: #C0403C;
 }
 
+
+/* THEME TEAL */
+.theme-teal{
+    background: url("../images/bg-gears-teal.svg") #f1f1f1 fixed;
+    -webkit-tap-highlight-color: #009688;
+}
+
+.theme-teal nav,
+.theme-teal nav .search,
+.theme-teal header.hero,
+.theme-teal footer{
+    background-color: #009688;
+}
+
+.theme-teal .btn{
+    outline-color: #009688;
+}
+
+.theme-teal footer .copyright,
+.theme-teal li.active a{
+    background-color: #00796b;
+    color: #fff;
+}
+
+.theme-teal .btn{
+    background-color: #ff5252;
+    color: #fff;
+}
+.theme-teal footer ul li a:hover,
+.theme-teal footer .copyright a:hover{
+    color: #ff5252;
+}
+
+.theme-teal .btn:hover{
+    background-color: #ff1744;
+}
+.theme-teal nav ul.nav li a:hover{
+    color: #ff1744;
+}
