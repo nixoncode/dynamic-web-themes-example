@@ -8,7 +8,7 @@ body{
     background: url("../images/bg-gears.svg") #f1f1f1 fixed;
     font-family: Helvetica;
     min-width: 330px;
-   -webkit-tap-highlight-color: #3465df;
+   -webkit-tap-highlight-color: #2D3640;
 }
 
 .wrapper{
@@ -19,7 +19,7 @@ body{
 /* NAVIGATION */
 
 nav{
-    background: #3465df;
+    background: #2D3640;
     position: fixed;
     width: 100%;
 }
@@ -109,7 +109,7 @@ nav .search{
     position: absolute;
     width: 100%;
     top: 0%;
-    background-color: #3465df;
+    background-color: #2D3640;
     padding: 14px;
     text-align: center;
 }
@@ -135,14 +135,14 @@ nav .search.close{
     cursor: pointer;
     user-select: none;
     box-shadow: 0 4px 8px 0 rgba(18,74,138,.24);
-    background: #79d634;
-    outline-color: #3465df;
+    background: #F0514B;
+    outline-color: #2D3640;
     text-decoration: none;
   
 }
 
 .btn:hover{
-    background: #6cc828;
+    background: #ce1a17;
 }
 
 .btn-icon{
@@ -177,7 +177,7 @@ nav .search.close{
 
 /* HERO HEADER  */
 header.hero{
-    background: #3465df;
+    background: #2D3640;
     text-align: center;
     color: #fff;
     /* fix for fixed navigation bar */
@@ -223,7 +223,7 @@ section.post{
 /* FOOTER */
 
 footer{
-    background-color: #3465df;
+    background-color: #2D3640;
     color: #e6dede;
     text-align: center;
 }
@@ -246,11 +246,11 @@ footer .copyright a{
 }
 footer ul li a:hover,
 footer .copyright a:hover{
-    color: #fff;
+    color: #F0514B;
 }
 
 footer .copyright{
-    background-color: #0637a8;
+    background-color: #394450;
     padding: 8px;
     text-align: right;
 }
@@ -298,7 +298,7 @@ footer .copyright p:first-child{
     }
 
     nav ul.nav li a:hover{
-        background-color: #79d634;
+        background-color: #F0514B;
         color: #fff;
     }
 
