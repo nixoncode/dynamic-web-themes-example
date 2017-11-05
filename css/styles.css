@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 body{
-    background: url("../images/bg-gears.svg") #f1f1f1 fixed;
     font-family: Helvetica;
     min-width: 330px;
 }
