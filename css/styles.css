@@ -389,7 +389,7 @@ footer .copyright p:first-child{
 
 /* THEME BLUE GREY */
 .theme-bg{
-    background: url("../images/bg-gears-indigo.svg") #f1f1f1 fixed;
+    background: url("../images/bg-gears-blue-grey.svg") #f1f1f1 fixed;
 }
 
 .theme-bg nav,
@@ -423,5 +423,44 @@ footer .copyright p:first-child{
 }
 .theme-bg nav ul.nav li a:hover{
     color: #1de9b6;
+}
+
+
+/* THEME DARK */
+.theme-dark{
+    background: url("../images/bg-gears-dark.svg") #f1f1f1 fixed;
+}
+
+.theme-dark nav,
+.theme-dark nav .search,
+.theme-dark header.hero,
+.theme-dark footer{
+    background-color: #2D3640;
+}
+
+.theme-dark .btn{
+    outline-color: #2D3640;
+}
+
+.theme-dark footer .copyright,
+.theme-dark li.active a{
+    background-color: #394450;
+    color: #fff;
+}
+
+.theme-dark .btn{
+    background-color: #F0514B;
+    color: #fff;
+}
+.theme-dark footer ul li a:hover,
+.theme-dark footer .copyright a:hover{
+    color: #F0514B;
+}
+
+.theme-dark .btn:hover{
+    background-color: #F0514B;
+}
+.theme-dark nav ul.nav li a:hover{
+    color: #F0514B;
 }
 
