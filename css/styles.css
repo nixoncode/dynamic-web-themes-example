@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background: #f1f1f1;
+    background: url("../images/bg-gears.svg") #f1f1f1 fixed;
     font-family: Helvetica;
     min-width: 330px;
    -webkit-tap-highlight-color: #3465df;
@@ -177,7 +177,7 @@ nav .search.close{
 
 /* HERO HEADER  */
 header.hero{
-    background-color: #3465df;
+    background: #3465df;
     text-align: center;
     color: #fff;
     /* fix for fixed navigation bar */
