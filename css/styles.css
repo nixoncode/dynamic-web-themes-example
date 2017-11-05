@@ -8,7 +8,7 @@ body{
     background: url("../images/bg-gears.svg") #f1f1f1 fixed;
     font-family: Helvetica;
     min-width: 330px;
-   -webkit-tap-highlight-color: #2D3640;
+   -webkit-tap-highlight-color: #009688;
 }
 
 .wrapper{
@@ -19,7 +19,7 @@ body{
 /* NAVIGATION */
 
 nav{
-    background: #2D3640;
+    background: #009688;
     position: fixed;
     width: 100%;
 }
@@ -99,8 +99,8 @@ nav ul.nav li a{
 }
 
 nav ul.nav li a:hover{
-    background-color: #eeeeee;
-    color: #333;
+    background-color: #ff5252;
+    color: #fff;
 }
 
 /* search */
@@ -109,7 +109,7 @@ nav .search{
     position: absolute;
     width: 100%;
     top: 0%;
-    background-color: #2D3640;
+    background-color: #009688;
     padding: 14px;
     text-align: center;
 }
@@ -135,14 +135,14 @@ nav .search.close{
     cursor: pointer;
     user-select: none;
     box-shadow: 0 4px 8px 0 rgba(18,74,138,.24);
-    background: #F0514B;
-    outline-color: #2D3640;
+    background: #ff5252;
+    outline-color: #009688;
     text-decoration: none;
   
 }
 
 .btn:hover{
-    background: #ce1a17;
+    background: #ff1744;
 }
 
 .btn-icon{
@@ -177,7 +177,7 @@ nav .search.close{
 
 /* HERO HEADER  */
 header.hero{
-    background: #2D3640;
+    background-color: #009688;
     text-align: center;
     color: #fff;
     /* fix for fixed navigation bar */
@@ -223,7 +223,7 @@ section.post{
 /* FOOTER */
 
 footer{
-    background-color: #2D3640;
+    background-color: #009688;
     color: #e6dede;
     text-align: center;
 }
@@ -241,16 +241,16 @@ footer ul li{
 footer ul li a,
 footer .copyright a{
     display: inline-block;
-    color: #ccc;
+    color: #f0eeee;
     padding: 12px 14px; 
 }
 footer ul li a:hover,
 footer .copyright a:hover{
-    color: #F0514B;
+    color: #ff5252;
 }
 
 footer .copyright{
-    background-color: #394450;
+    background-color: #00796b;
     padding: 8px;
     text-align: right;
 }
@@ -298,7 +298,7 @@ footer .copyright p:first-child{
     }
 
     nav ul.nav li a:hover{
-        background-color: #F0514B;
+        background-color: #ff5252;
         color: #fff;
     }
 
@@ -352,6 +352,23 @@ footer .copyright p:first-child{
 
 
 
+.theme-indigo{
+    background: url("../images/bg-gears-indigo.svg") #f1f1f1;
+}
 
+.theme-indigo nav,
+.theme-indigo nav .search,
+.theme-indigo header.hero,
+.theme-indigo footer{
+    background-color: #3f51b5;
+}
+
+.theme-indigo .btn{
+    outline-color: #3f51b5;
+}
+
+.theme-indigo footer .copyright{
+    background-color: #303f9f;
+}
 
 
