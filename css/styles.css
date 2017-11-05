@@ -99,8 +99,7 @@ nav ul.nav li a{
 }
 
 nav ul.nav li a:hover{
-    background-color: #ff1744;
-    color: #fff;
+    color: #ff1744;
 }
 
 /* search */
@@ -298,8 +297,7 @@ footer .copyright p:first-child{
     }
 
     nav ul.nav li a:hover{
-        background-color: #ff5252;
-        color: #fff;
+        color: #ff5252;
     }
 
 
@@ -353,7 +351,7 @@ footer .copyright p:first-child{
 
 
 .theme-indigo{
-    background: url("../images/bg-gears-indigo.svg") #f1f1f1;
+    background: url("../images/bg-gears-indigo.svg") #f1f1f1 fixed;
 }
 
 .theme-indigo nav,
@@ -367,8 +365,10 @@ footer .copyright p:first-child{
     outline-color: #3f51b5;
 }
 
-.theme-indigo footer .copyright{
+.theme-indigo footer .copyright,
+.theme-indigo li.active a{
     background-color: #303f9f;
+    color: #fff;
 }
 
 .theme-indigo .btn{
@@ -379,9 +379,11 @@ footer .copyright p:first-child{
     color: #ff4081;
 }
 
-.theme-indigo .btn:hover,
-.theme-indigo nav ul.nav li a:hover{
+.theme-indigo .btn:hover{
     background-color: #f50057;
+}
+.theme-indigo nav ul.nav li a:hover{
+    color: #f50057;
 }
 
 
