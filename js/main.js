@@ -22,3 +22,9 @@ function toggleSearch() {
     var search = document.querySelector("#search");
     search.classList.toggle("close");
 }
+
+let menuTheme = document.querySelector("#menuTheme");
+let themeDropdown = document.querySelector(".theme-dropdown");
+
+menuTheme.addEventListener("click", () => themeDropdown.classList.toggle("close"));
+menuTheme.addEventListener("blur", () => themeDropdown.classList.add("close"));
