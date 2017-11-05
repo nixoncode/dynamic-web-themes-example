@@ -99,7 +99,7 @@ nav ul.nav li a{
 }
 
 nav ul.nav li a:hover{
-    background-color: #ff5252;
+    background-color: #ff1744;
     color: #fff;
 }
 
@@ -135,7 +135,7 @@ nav .search.close{
     cursor: pointer;
     user-select: none;
     box-shadow: 0 4px 8px 0 rgba(18,74,138,.24);
-    background: #ff5252;
+    background-color: #ff5252;
     outline-color: #009688;
     text-decoration: none;
   
@@ -369,6 +369,19 @@ footer .copyright p:first-child{
 
 .theme-indigo footer .copyright{
     background-color: #303f9f;
+}
+
+.theme-indigo .btn{
+    background-color: #ff4081;
+}
+.theme-indigo footer ul li a:hover,
+.theme-indigo footer .copyright a:hover{
+    color: #ff4081;
+}
+
+.theme-indigo .btn:hover,
+.theme-indigo nav ul.nav li a:hover{
+    background-color: #f50057;
 }
 
 
