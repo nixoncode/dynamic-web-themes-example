@@ -77,4 +77,27 @@ function removeAddClassToBody(className){
 
     themes.forEach(theme => body.classList.remove(theme));
     body.classList.add(className);
+    // save the current selected theme
+    saveTheme(className);
 }
+
+/**
+ * @returns {string}
+ */
+function fetchTheme(){
+
+    let theme = localStorage.getItem("theme");
+    // return the default theme if none is defined;
+    return !theme ? "theme-teal" : theme;
+}
+
+/**
+ * 
+ * @param { string} theme 
+ */
+function saveTheme(theme){
+    localStorage.setItem("theme", theme);
+}
+
+// initialize the selected or default theme
+removeAddClassToBody(fetchTheme());
