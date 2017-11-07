@@ -116,7 +116,7 @@ MIT
 ## Contributing
 all are welcomed :laughing:
 ## Bugs
-1. no default theme specified for non-JavaScript agents
+1. ~~no default theme specified for non-JavaScript agents~~ (was so simple, just added default theme class to the body).
 2. i can't get this READ ME contents to navigate to sections(markdown) :pray: 
 ## Miscellaneous
 - Am new at this
