@@ -2,6 +2,8 @@
 This is a single page website that demonstrates how to use dynamic themes within a website using local storage.
 This gives your user the control to switch themes by a click of a button
 
+Preview [here](https://nixoncode.github.io/dynamic-web-themes-example/)
+
 ## Contents
 1. [File Structure](#)
 2. [Methodology](#)
